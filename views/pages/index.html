@@ -1,0 +1,81 @@
+{% extends "./layouts/site.layout.html" %} {% block title %} Dashboard {% endblock %} {% block content %}
+
+<section class="class-content padding-comfy">
+
+    <h1>DASHBOARD</h1>
+
+
+    <section class="flex -col-1-2 -margin-wide">
+
+        <section class="heading-box">
+            <h3>Orders</h3>
+            <div>
+
+                <dl>
+                    <dt>
+                        <a href="#">New Orders</a>
+                    </dt>
+                    <dd>
+                        <span>  You have X new orders to process!</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">All Orders</a>
+                    </dt>
+                    <dd>
+                        <span> Search and manage your order archive.</span>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="#">Customers</a>
+                    </dt>
+                    <dd>
+                        <span> Search and edit your customer database.</span>
+                    </dd>
+                </dl>
+
+
+
+            </div>
+        </section>
+        <section class="heading-box">
+            <h3>Product</h3>
+            <div>
+
+                <dl>
+                    <dt>
+                        <a href="#">Add a New Product</a>
+                    </dt>
+                    <dd>&nbsp;</dd>
+                    <dt>
+                        <a href="#">Manage Product</a>
+                    </dt>
+                    <dd>Search, edit, or remove products from your online store.</dd>
+
+                    <dt>
+                        <a href="#">Manage Categories</a>
+                    </dt>
+                    <dd>Edit how your catalog is organized.</dd>
+
+                    <dt>
+                        <a href="#">Manage Print Options</a>
+                    </dt>
+                    <dd>Add or edit mediums and print sizes.</dd>
+                </dl>
+
+            </div>
+        </section>
+
+
+
+
+    </section>
+
+
+
+
+</section>
+
+{% endblock %}

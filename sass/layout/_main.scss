@@ -1,0 +1,43 @@
+.main {
+
+    clear:both;
+    padding-top:$header-height-base;
+
+}
+
+.main, .main-container, .main-content{
+    height:100%;
+}
+
+
+.main-container{
+    background-color:$color-bg-content;
+    color:$color-font-content;
+    display:block;
+
+
+    @include mediaSmall {
+        display:flex;
+        overflow: hidden;
+
+
+    }
+
+
+
+}
+
+
+.main-content{
+    width:100%;
+    overflow:auto;
+
+h1{
+    background-color:$color-theme-primary;
+    padding:$padding-base;
+    color: inverse-value-mix($color-theme-primary, 100%);
+    margin-bottom:$font-size-h1 / 2;
+    text-align:center;
+}
+
+}

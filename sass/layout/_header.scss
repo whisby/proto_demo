@@ -1,0 +1,20 @@
+﻿/// <reference path="../references.scss" />;
+
+header {
+    height : $header-height-base;
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.header-top{
+    padding:$padding-base $padding-comfy;
+    width:100%;
+}
+
+
+

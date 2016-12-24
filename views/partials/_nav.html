@@ -1,0 +1,10 @@
+
+
+<nav class="site-nav  ">
+    
+    {% for item in Nav %} 
+    <a href="{{ item.GetURL() }}" class="nav-item {{item.Controller}}  {% if controller == item.Controller %} active {% endif %}">
+    <span>{{item.Title}}</span>
+    </a>
+     {% endfor %}
+</nav>

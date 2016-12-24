@@ -1,0 +1,26 @@
+/// <reference path="../references.scss" />;
+
+.site-nav{
+@include color-set($colorset-primary);
+width:100%;
+overflow:auto;
+
+a {
+display:block;
+padding:$padding-comfy;
+transition: background-color 0.3s;
+width:100%;
+border-bottom:rgba(255,255,255,0.3) 1px solid;
+
+&:hover, &.active{
+    background-color: saturate($color-theme-primary, 10%);
+}
+
+}
+
+@include mediaSmall {
+    height:100%;
+    width:13rem;
+
+}
+}

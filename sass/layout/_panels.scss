@@ -1,0 +1,7 @@
+/// <reference path="../references.scss" />;
+
+
+.bg-primary {
+    @include color-set($colorset-primary)
+}
+
